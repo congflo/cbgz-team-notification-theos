@@ -1,4 +1,4 @@
-export THEOS=/var/theos
+export THEOS=./theos
 ARCHS = arm64 #arm64e
 DEBUG = 0
 FINALPACKAGE = 1
