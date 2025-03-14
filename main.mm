@@ -50,7 +50,7 @@ alert.backgroundType = SCLAlertViewBackgroundBlur;
 
 alert.cornerRadius = 20.0f;
 
-alert.backgroundViewColor = UIColorFromHEX(0x0B2C5C);
+alert.backgroundViewColor = UIColorFromHEX(0x031939);
 
 
 

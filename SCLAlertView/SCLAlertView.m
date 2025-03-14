@@ -249,7 +249,7 @@ SCLTimerDisplay *buttonTimer;
     self.backgroundViewColor = [UIColor whiteColor];
     _labelTitle.textColor = UIColorFromHEX(0xfcc11c); //Dark Grey
     _viewText.textColor = UIColorFromHEX(0xffffff); //Dark Grey
-    _contentView.layer.borderColor = UIColorFromHEX(0x2290F2).CGColor; //Blue Grey
+    _contentView.layer.borderColor = UIColorFromHEX(0x0B2E75).CGColor; //Blue Grey
 }
 
 - (void)setupNewWindow {
