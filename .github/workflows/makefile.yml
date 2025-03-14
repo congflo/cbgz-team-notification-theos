@@ -23,7 +23,7 @@ jobs:
       - name: build
         run: |
           make
-          la
+          ls
       - name: check path
         run: |
           cd .theos
