@@ -10,22 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: Randomblock1/theos-action@v1
-        with:
-    # All of these are optional. Defaults are filled in below.
-    
-    # This is where Theos is downloaded to.
-          theos-dir: 'theos'
-    
-    # This is where Theos will be git cloned from.
-          theos-src: 'https://github.com/theos/theos'
-    
-    # This is where the Theos SDKs will be downloaded from.
-    # Useful for using frameworks that aren't in the official repo.
-          theos-sdks: 'https://github.com/theos/sdks'
-
-    # Which branch to clone from theos-sdks repo.
-          theos-sdks-branch: 'master'
-
-    # Whether to enable Orion, which adds support for tweaks coded in Swift
-          orion: 'false'
+      - name: clone theos repo
+        run: git clone --recursive https://github.com/theos/theos.git
+      - name: install sdks
+        run: curl -fsSL https://github.com/theos/sdks/tarball/master | tar -xz --strip-components=1
