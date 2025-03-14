@@ -21,4 +21,8 @@ jobs:
           curl -fsSL https://github.com/theos/sdks/tarball/master | tar -xz --strip-components=1
           exec bash
       - name: build
-        run: make
+        run: |
+          make
+          ls
+          cd .theos
+          ls
