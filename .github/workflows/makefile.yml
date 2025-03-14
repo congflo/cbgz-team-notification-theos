@@ -13,8 +13,6 @@ jobs:
       - name: install include tools
         run: |
           brew install ldid xz perl
-          hash -r
-          PERL_MM_USE_DEFAULT=1 cpan IO::Compress::Lzma
       - name: clone theos repo
         run: git clone --recursive https://github.com/theos/theos.git
       - name: install sdks
