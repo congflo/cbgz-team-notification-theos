@@ -1,0 +1,20 @@
+name: Build dylib file
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: check & install theos
+      - run: |
+          brew update && brew upgrade
+          sudo passwd
+          c
+          c
+          su
+          c
