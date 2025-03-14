@@ -28,5 +28,5 @@ jobs:
         run: |
           cd .theos
           ls
-          cd obj
+          cd swift
           ls
