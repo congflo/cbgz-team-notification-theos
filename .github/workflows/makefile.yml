@@ -25,5 +25,6 @@ jobs:
           make
           la
       - name: check path
+        run: |
           cd .theos
           ls

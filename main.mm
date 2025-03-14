@@ -50,7 +50,7 @@ alert.backgroundType = SCLAlertViewBackgroundBlur;
 
 alert.cornerRadius = 20.0f;
 
-alert.backgroundViewColor = UIColorFromHEX(0x302d26);
+alert.backgroundViewColor = UIColorFromHEX(0x0B2C5C);
 
 
 
@@ -65,32 +65,21 @@ alert.backgroundViewColor = UIColorFromHEX(0x302d26);
 
 
 //Example button
-[alert addButton:@"GROUP KETA " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://www.facebook.com/groups/ketabykenhtao"] options:@{} completionHandler:nil];
+[alert addButton:@"discord CyberGangz" actionBlock:^(void) {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://discord.gg/X7pKkZE9kf"] options:@{} completionHandler:nil];
 }];
 
-[alert addButton:@"TELEGRAM KETA " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/KETAiOS"] options:@{} completionHandler:nil];
+[alert addButton:@"discord CongChu's Community" actionBlock:^(void) {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://discord.gg/nUpEeqRBqR"] options:@{} completionHandler:nil];
 }];
 
-[alert addButton:@"TELEGRAM Kênh Táo " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/repo_kenhtao"] options:@{} completionHandler:nil];
-    }];
-
-[alert addButton:@"TELEGRAM DVC IPA " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/dvcipaios"] options:@{} completionHandler:nil];
-    }];
-
-[alert addButton:@"TELEGRAM iOSVIET.CO " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/iosvietmrq"] options:@{} completionHandler:nil];
-        }];
 //End example button
 
 
 
 
 //You can replace any logo link with a direct image link
-NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://img.upanh.tv/2023/09/03/AF743409-C184-485B-BED8-C0F6500B3BEA.png"]];
+NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://img.upanh.tv/2025/03/14/F290681E-4097-4AF6-BAD6-BF88A0CE2360.jpg"]];
 
 UIImage* customAlertImage = [UIImage imageWithData:data];  
  
