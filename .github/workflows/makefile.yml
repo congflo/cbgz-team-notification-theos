@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: check & install theos
-      - run: |
+        run: |
           brew update && brew upgrade
           sudo passwd
           c
