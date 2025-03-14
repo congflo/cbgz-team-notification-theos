@@ -94,7 +94,7 @@ NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://img.
 
 UIImage* customAlertImage = [UIImage imageWithData:data];  
  
-[alert showCustom:alert image:customAlertImage color:[UIColor clearColor] title:@"KÊNH TÁO " subTitle:@"Cảm ơn bạn đã sử dụng  KETA .\nBấm vào Logo để tắt thông báo." closeButtonTitle:nil duration:9999999999.0f];
+[alert showCustom:alert image:customAlertImage color:[UIColor clearColor] title:@"CyberGangzTeam🪐" subTitle:@"Cảm ơn bạn đã sử dụng iPA file của CyberGangzTeam🪐.\nVui lòng không reup iPA file của chúng tôi nếu bạn không muốn gặp rắc rối về dữ liệu của bạn!\nThanks for using CyberGangzTeam's iPA files.\nPlease do not reup our iPA file if you do not want to get into trouble with your data!" closeButtonTitle:nil duration:9999999999.0f];
 
 
 

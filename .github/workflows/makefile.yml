@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: install include tools
         run: |
-          brew install ldid xz perl
+          brew install ldid
       - name: clone theos repo
         run: git clone --recursive https://github.com/theos/theos.git
       - name: install sdks
@@ -23,6 +23,7 @@ jobs:
       - name: build
         run: |
           make
-          ls
+          la
+      - name: check path
           cd .theos
           ls
