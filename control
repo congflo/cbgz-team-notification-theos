@@ -1,5 +1,5 @@
-Package: com.x2nios.alert
-Name: [X2NIOS] ALERT
+Package: com.cbgz.notification
+Name: CyberGangz Alert
 Version: 1.0
 Architecture: iphoneos-arm
 Description: ALERT

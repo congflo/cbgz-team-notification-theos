@@ -9,7 +9,7 @@ MOBILE_THEOS=1
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = AlertTheos
+TWEAK_NAME = xboxlogin
 
 
 PROJ_COMMON_FRAMEWORKS = UIKit Foundation Security QuartzCore CoreGraphics CoreText

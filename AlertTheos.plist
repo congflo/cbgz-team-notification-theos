@@ -1,7 +1,8 @@
 {
     Filter =     {
         Bundles =         (
-            "vn.com.vng.zingalo"
+            "com.mojang.minecraftpe.cbgz",
+            "com.mojang.cbgzminecraftpe"
         );
     };
 }

@@ -23,10 +23,10 @@ jobs:
       - name: build
         run: |
           make
-          ls
-      - name: check path
-        run: |
-          cd .theos
-          ls
-          cd swift
-          ls
+          mkdir build
+          cd ./.theos/obj && mv xboxlogin.dylib ../../build
+      - name: Upload dylib
+        uses: actions/upload-artifact@main
+        with:
+          name: dylib
+          path: build/
