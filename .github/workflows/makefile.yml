@@ -14,3 +14,5 @@ jobs:
         run: git clone --recursive https://github.com/theos/theos.git
       - name: install sdks
         run: curl -fsSL https://github.com/theos/sdks/tarball/master | tar -xz --strip-components=1
+      - name: build
+        run: ls
