@@ -1,5 +1,5 @@
 export THEOS=./theos
-ARCHS = arm64 #arm64e
+ARCHS = arm64 arm64e
 DEBUG = 0
 FINALPACKAGE = 1
 FOR_RELEASE = 1
